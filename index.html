@@ -5,12 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #IMG1{
+            height: 17px;
+            width: 40px;
+        }
+        #IMG2{
+            height: 20px;
+            width: 30px;
+        }
+        #IMG3{
+            height: 25px;
+            width: 20px;
+        }
+        h2{
+            text-decoration: underline;
+        }
+        #aboutSection{background-image: url(laptop-computer.avif);}
+        #educationSection{background-image: url(education.jpg);}
+        #skillSection{background-image: url(blurred-bokeh-banner.avif);}
+        #projectSection{background-image: url(golubovy191000206.jpg);}
+        #internshipSection{background-image: url(Careers-Page.webp);}
+        #contactSection{background-image: url(contact.jpg);}
+        #MiniSection{}
+        #MajorSection{}
+    </style>
 </head>
 <body>
-    <div>
-        <img src="IMG-24.jpg" alt="error">
-        <p>Ms. Shravika Dussa</p>
-        <p>B.Tech Electronics</p>
-    </div>
+    <div id="container">
+    <section>
+        <div id="header">
+            <div id="studImg">
+                <img src="IMG-24.jpg" alt="">
+            </div>
+
+            <div id="studDetail">
+                <div id="studName">
+                    <h1>Ms. Shravika Dussa</h1>
+                </div>
+                <div id="menu">
+                    <ul id="menulist">
+                        <li><a href="#aboutSection">About</a></li>
+                        <li><a href="#educationSection">Education</a></li>
+                        <li><a href="#skillSection">Skill</a></li>
+                        <li><a href="#projectSection">Projects</a></li>
+                        <li><a href="#internshipSection">Internship</a></li>
+                        <li><a href="#contactSection">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="main">
+            <div id="aboutSection">
+                <h2>About Myself:</h2><br>
+                <p><i>Myself Shravika Dussa, currently I am pursuing Electronics Engineering in Walchand Institute of Technology, Solapur. I am an organised, efficient and hard working person, and am willing to discover and accept new ideas which can be put into practice effectively. I am a good listener and learner, able to communicate well with a group and on an individual level. I am able to motivate and direct my talents and skills to meet objectives.</i></p>
+            </div>
+            <div id="educationSection">
+                <h2>Education:</h2><br>
+                <p>Valentine Circle English Medium School <br>(10th-2018)</p><br>
+                <p>Government Polytechnic Solapur <br>(Diploma in Electronics & Telecommunication-2021)</p><br>
+                <p>Walchand Institute of Technology <br>(B.Tech in Electronics-2024)</p>
+            </div>
+            <div id="skillSection">
+                <h2>Technical Skills:</h2><br>
+                    <li>Computer Skills</li><br>
+                    <li>HTML</li><br>
+                    <li>CSS</li><br>
+                    <li>Machine Learning</li><br>
+                    <li>PowerPoint</li><br>
+            </div>
+            <div id="projectSection">
+                <h2>Academic Project:</h2><br>
+                <section>
+                <div id="MiniSection"><a href="#MiniSection">Mini Project</a></div>
+                <div id="MajorSection"><a href="#MajorSection">Major Project</a></div>
+                <!-- <p>Automatic Hand Sanitizer</p><br> -->
+                <!-- <p>IOT based fire detection system</p> -->
+                <!-- <p>Tracking and detecting suspicious activites through ML</p> -->
+                </section>
+            </div>
+            <div id="internshipSection">
+                <h2>Internship:</h2><br>
+                <p>Shams Energy- <br>(1 Mar 2023 - 15 Mar 2023)<br>
+                During my 15-day internship in solar energy, I conducted comprehensive audits to enhance system efficiency, and actively contributed to solar panel design, gaining valuable hands-on experience in the field.</p>
+            </div>
+            <div id="contactSection">
+                <h2>Contact Me:</h2><br>
+                <p><img id="IMG1" src="phone-call icon.webp">+919665472466</p><br>
+                <p><img id="IMG2" src="email-icon.jpg">shravikadussa@gmail.com</p><br>
+                <p><img id="IMG3" src="address-icon.jpg" >1369, bhadravati peth, Solapur-413006</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="footer"></div>
+    </section>
+</div>
 </body>
 </html>

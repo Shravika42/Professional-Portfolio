@@ -1,5 +1,79 @@
-img{
-    height: 200px;
-    width: 150px;
-    border-radius: 90%;
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    background: url(project-management.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+#header{
+    border: 1px solid black;
+    background-color: grey;
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+}
+#header #studImg{
+    width: 20%;
+    height: inherit;
+}
+#header #studDetail{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#header #studDetail #studName{
+
+}
+#header #studDetail #menu{
+
+}
+#header #studDetail #menu #menulist{
+    display: flex;
+    flex-direction: column;
+}
+#header #studDetail #menu #menulist li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+#menulist li:hover{
+    font-size: larger;
+    width: 75px;
+    background-color:gainsboro;
+}
+#header #studDetail #menu #menulist li a{
+    text-decoration: none;
+}
+#header #studImg img{
+    height: inherit;
+    border-radius: 50%;
+}
+#main{
+    border: 1px solid black;
+    background-color: white;
+    height: 651px;
+    overflow-y: scroll;
+    text-align: justify;
+}
+#main div{
+    height: 100%;
+    /* border: 1px solid grey; */
+    /* border: 15%; */
+    /* margin: 5px; */
+    /* padding: 5px; */
+    font-size: x-large;
+    text-align: center;
+    background-color: bisque;
+    /* color: whitesmoke; */
+    /* background-image: url(laptop-computer.avif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer{
+    border: 1px solid black;
+    background-color: grey;
+    height: 38px;
 }

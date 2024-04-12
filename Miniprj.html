@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 250px;
+            width: 400px;}
+    </style>
+</head>
+<body>
+    <h2><center>IOT Based Fire Detection System</center></h2>
+    <h3>Introduction:</h3>
+    <p>Every day, we hear of fire accidents happening somewhere. It takes the lives of many people and damages huge property. Most of the damages in fire accidents occur due to a lack of early fire detection, it is a very big problem.
+    Fire alarms systems are required in most commercial buildings and are installed to protect life and property. Examples include, schools, churches, restaurants, and corporate buildings.</p>
+
+    <h3>Components:</h3>
+    <li>Arduino Uno</li>
+    <li>Flame Sensor</li>
+    <li>Jumper Wires</li>
+    <li>Buzzer</li>
+    <li>PCB</li>
+    <li>180-ohm resistor</li> 
+    <li>LED</li>
+
+    <h3>Block Diagram:</h3>
+    <img src="WhatsApp Image.jpeg"><br>
+    <h3>Working:</h3>
+    <p>The flame sensor works by detecting the infrared radiation emitted by flames. When a flame is detected, the sensor sends a signal to the Arduino board. The Arduino board receives this signal through a digital input pin and processes it using the code we wrote. <br>
+    The code continuously reads the state of the flame sensor using the digitalRead() function. If the sensor detects a flame (i.e. the state is HIGH), the Arduino board activates the buzzer and LED to alert the user of the potential fire. This is done using the digitalWrite() function to set the buzzer and LED pins to HIGH. The delay() function is used to create a blinking effect for the LED.</p>
+
+    <h3>Advantages:</h3>
+    <li>Detection Distance </li>
+    <li>Sensitivity</li>
+    <li>Time consumption</li>
+    <li>Speed of response</li>
+    <li>Reliability</li>
+
+    <p>To view the report click below <br><a href="">Miniproject Report</a></p>
+</body>
+</html>
